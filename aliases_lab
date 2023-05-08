@@ -1,0 +1,42 @@
+# ~/.aliases  -- examples of fancy aliases
+
+alias	loadaliases	'source ~/.aliases'
+
+# Basic aliases
+alias rm 'rm -i'	# ask on remove
+alias cp 'cp -i'	# ask on overwrite
+alias mv 'mv -i'	# ask on overwrite
+
+# A couple of useful aliases:
+alias	h	history
+alias	j	jobs
+alias	z	suspend
+alias   c       clear
+
+alias -        'less'
+alias +        'more'
+alias hterm    'xterm -fn heb8x13 -fb heb8x13-bold &'
+
+# My alias
+alias	ll	ls -l
+alias   lt      ls -lt
+alias   ltr	ls -ltrh	
+alias	lt10	'ltr \!$ | tail'
+alias	la 	ls -l -a
+alias   lj      ls -l "*.java"
+alias 	RM	'rm -f'
+alias 	e	xemacs
+alias   psu     ps -U
+alias   k	cat > /dev/null
+alias   mich	rlogin learn-21 -l michalra
+alias	disp	xhost +${HOST}
+alias	xe	xemacs -nw 
+alias	stamp	'echo `hostname`.`date "+%y.%m.%d.%H:%M:%S"`'
+alias	vmpl	'vmplayer .vmware_RO'
+alias	phone	'egrep -h -i -e "E-mail|\!*" /cs/www/labs/learning/phone.ascii'
+alias   xt   'xterm -bg black -fg white -fn 9x15 -sb -sl 5000 \!* &'
+alias	dmac	'setenv DISPLAY macmoran-w:0'
+
+alias	ps	'ps -o pid,cmd,time,%mem'
+alias	GCCP	'g++'
+alias	q	'psql -h dbcourse public -c'
