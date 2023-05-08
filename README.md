@@ -1,9 +1,6 @@
 # CoolShell
 This repository contains a collection of shell scripts that can make your shell experience more efficient and fun.
 
-# Cool Shell Project
-
-This project contains some files that can make your shell more cool.
 
 ## Files
 
